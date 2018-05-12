@@ -15,10 +15,10 @@ public class InputManager : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Space)) {
 			Debug.Log("SPACE is pressed!");
-			currentInput.text = "SPACE";
+			currentInput.text = "SPACE IS PRESSED RIGHT FUCKING NOW! HOW COOL IS THAT?";
 		} else if (Input.GetKeyDown(KeyCode.DownArrow)) {
 			Debug.Log("DOWN is pressed!");
-			currentInput.text = "DOWN";
+			currentInput.text = "DOWN WILL BE SHOWN TO YOU! YAY!";
 		}
 	}
 }
