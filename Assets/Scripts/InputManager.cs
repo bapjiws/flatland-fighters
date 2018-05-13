@@ -13,10 +13,10 @@ public class InputManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Space)) {
+		if (Input.GetKeyDown(KeyCode.Space) && currentInput != null) {
 			Debug.Log("SPACE is pressed!");
 			currentInput.text = "SPACE IS PRESSED RIGHT FUCKING NOW! HOW COOL IS THAT?";
-		} else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+		} else if (Input.GetKeyDown(KeyCode.DownArrow) && currentInput != null) {
 			Debug.Log("DOWN is pressed!");
 			currentInput.text = "DOWN WILL BE SHOWN TO YOU! YAY!";
 		}
